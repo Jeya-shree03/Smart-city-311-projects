@@ -1,0 +1,13 @@
+SMART CITY 311 PROJECT — START HERE
+
+1. Extract this ZIP file.
+2. Open the extracted folder named smart_city_311_project_fresh in VS Code.
+3. In VS Code, click Terminal > New Terminal.
+4. Run these commands one by one:
+
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+
+Keep the terminal open while using the dashboard.
